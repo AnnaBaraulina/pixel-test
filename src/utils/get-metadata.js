@@ -1,4 +1,6 @@
-const SITE_URL = process.env.NEXT_PUBLIC_DEFAULT_SITE_URL;
+/* const SITE_URL = process.env.NEXT_PUBLIC_DEFAULT_SITE_URL; */
+const SITE_URL = 'http://localhost:3000';
+
 // FIXME: Add real data for your site
 const SITE_NAME = 'Pixel Point Next.js Tailwind Starter';
 // FIXME: Add an image for displaying on social networks, remember that this image must meet the size of 1200x630
@@ -13,8 +15,8 @@ export default function getMetadata({
   imagePath = DEFAULT_IMAGE_PATH,
   type = 'website',
 } = {}) {
-  const canonicalUrl = SITE_URL + pathname;
-  const imageUrl = imagePath.startsWith('http') ? imagePath : SITE_URL + imagePath;
+  const canonicalUrl = SITE_URL + (pathname || '/');
+  const imageUrl = imagePath.startsWith('http') ? imagePath : SITE_URL + (imagePath || '/');
   const robots = robotsNoindex === 'noindex' ? { index: false } : null;
 
   return {
