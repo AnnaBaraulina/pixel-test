@@ -6,7 +6,7 @@ import getMetadata from 'utils/get-metadata';
 
 const Home = () => (
   <section className="font-roboto bg-black">
-    <main className="container flex justify-center items-center">
+    <main className="container flex justify-center items-center max-w-[90%]">
       <div className="flex flex-col justify-start mr-6">
         <h1
           style={{ fontSize: '76px', lineHeight: '85px' }}
@@ -30,7 +30,13 @@ const Home = () => (
           </Button>
         </div>
       </div>
-      <Image src="/images/illustration.png" width={716} height={797} alt="Таблица Acme Corp" />
+      <Image
+        src="/images/illustration.png"
+        width={716}
+        height={797}
+        alt="Таблица Acme Corp"
+        priority
+      />
     </main>
   </section>
 );
