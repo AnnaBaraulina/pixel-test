@@ -2,12 +2,12 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 
 const styles = {
-  base: 'font-sans text-16 font-light rounded-full border border-solid shadow-sm',
+  base: 'font-sans text-16 text-gray-94 font-light border border-solid rounded-full shadow-sm',
   size: {
     lg: 'w-[504px] h-[60px] px-4',
   },
   theme: {
-    primary: 'bg-primary-1/20',
+    primary: 'bg-primary-1/20 border-primary-1/60',
   },
 };
 

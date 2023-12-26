@@ -5,7 +5,7 @@ import 'styles/global.css';
 // eslint-disable-next-line react/prop-types
 const RootLayout = ({ children }) => (
   <html lang="en">
-    <body>
+    <body className="bg-black">
       <Header />
       <main>{children}</main>
     </body>

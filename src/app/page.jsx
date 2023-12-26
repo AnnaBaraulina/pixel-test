@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
-import Input from 'components/pages/input/input';
-import Button from 'components/shared/button/button';
+import EmailForm from 'components/pages/form/form';
 import getMetadata from 'utils/get-metadata';
 
 const Home = () => (
@@ -19,16 +18,7 @@ const Home = () => (
           Analyze your subscription ecosystem for cost optimization and
           <br /> risk management
         </p>
-
-        <div
-          style={{ width: '504px' }}
-          className="relative justify-center items-center max-w-full flex"
-        >
-          <Input size="lg" theme="primary" placeholder="Your business email..." />
-          <Button size="lg" theme="primary" className="absolute top-50% right-2">
-            Free Treal
-          </Button>
-        </div>
+        <EmailForm />
       </div>
       <Image
         src="/images/illustration.png"
