@@ -1,5 +1,4 @@
-/* const SITE_URL = process.env.NEXT_PUBLIC_DEFAULT_SITE_URL; */
-const SITE_URL = 'http://localhost:3000';
+const SITE_URL = process.env.NEXT_PUBLIC_DEFAULT_SITE_URL;
 
 const SITE_NAME = 'Pixel Point Next.js Tailwind Starter';
 const DEFAULT_IMAGE_PATH = '/images/previewsite.jpg';
