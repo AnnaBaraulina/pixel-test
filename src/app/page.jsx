@@ -29,8 +29,8 @@ const Home = () => (
           priority
         />
       </div>
-      <div className="flex justify-between w-[100%]">
-        <div className="flex flex-col justify-start items-start">
+      <div className="flex justify-around items-center w-[100%]">
+        <div className="flex flex-col justify-start items-cstart">
           <Image src="/images/3x.svg" width={134} height={136} alt="Three times faster icon" />
           <h3 className="text-2xl leading-6 text-gray-98 font-normal mt-6 mb-8">
             Faster Analysis Cycles
@@ -42,7 +42,7 @@ const Home = () => (
             <br /> information from all subscriptions.
           </p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col justify-start items-cstart">
           <Image src="/images/10.svg" width={279} height={136} alt="Ten percent icon" />
           <h3 className="text-2xl leading-6 text-gray-98 font-normal mt-6 mb-8">
             Savings on Costs
@@ -55,9 +55,9 @@ const Home = () => (
             cutting strategies.
           </p>
         </div>
-        <div className="flex flex-col">
-          <Image src="/images/30.svg" width={134} height={136} alt="Three times faster icon" />
-          <h3 className="text-2xl leading-6 text-gray-98 font-normal mt-6 mb-8">Day Setup</h3>
+        <div className="flex flex-col justify-start items-cstart">
+          <Image src="/images/30.svg" width={156} height={136} alt="Three times faster icon" />
+          <h3 className="text-2xl leading-6 text-gray-98 font-normal mt-6 mb-6">Day Setup</h3>
           <div className="w-full h-[1px] bg-white/30 mb-6" />
           <p className="text-gray-94 font-light text-lg">
             Implement swiftly with straightforward,
@@ -73,10 +73,10 @@ const Home = () => (
 export default Home;
 
 export async function generateMetadata() {
-  // FIXME: Add real data here
   return getMetadata({
-    title: 'Home - Next.js Tailwind Starter',
-    description: 'Next.js Tailwind Starter',
+    title: 'Subscription Optimizer - Manage and Optimize Your Subscriptions',
+    description:
+      "Discover a smarter way to manage subscriptions with Subscription Optimizer. Our innovative service analyzes all your subscriptions, helping to identify unused or redundant services. We offer tailored recommendations to optimize your subscription expenses, ensuring cost savings and simplifying monthly budget planning. Whether it's entertainment services, software subscriptions, or online courses – Subscription Optimizer helps you make the most of every subscription.",
     pathname: '/',
   });
 }

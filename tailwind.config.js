@@ -26,6 +26,7 @@ export const theme = {
     },
     secondary: {
       1: '#40BFAA',
+      4: '#F04242',
     },
     gray: {
       98: '#FAF9FA',
