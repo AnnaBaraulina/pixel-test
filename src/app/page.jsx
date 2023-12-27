@@ -5,13 +5,10 @@ import getMetadata from 'utils/get-metadata';
 
 const Home = () => (
   <section className="font-roboto bg-black">
-    <main className="container flex flex-col justify-center items-center max-w-[90%]">
+    <main className="container flex flex-col justify-center items-center">
       <div className="flex justify-center items-center mb-20">
         <div className="flex flex-col justify-start mr-6">
-          <h1
-            style={{ fontSize: '76px', lineHeight: '85px' }}
-            className="text-gray-98 font-mono font-normal mb-6"
-          >
+          <h1 className="text-gray-98 font-mono font-normal leading-none mb-6 text-[76px] xl:!text-[68px] lg:!text-[54px]">
             Unlock&nbsp;valuable <br /> insights from <br />
             subscription&nbsp;data
           </h1>
@@ -24,12 +21,12 @@ const Home = () => (
         <Image
           src="/images/illustration.png"
           width={716}
-          height={797}
+          height={796}
           alt="Таблица Acme Corp"
           priority
         />
       </div>
-      <div className="flex justify-around items-center w-[100%]">
+      <div className="flex justify-around items-center w-[90%]">
         <div className="flex flex-col justify-start items-cstart">
           <Image src="/images/3x.svg" width={134} height={136} alt="Three times faster icon" />
           <h3 className="text-2xl leading-6 text-gray-98 font-normal mt-6 mb-8">
@@ -55,7 +52,7 @@ const Home = () => (
             cutting strategies.
           </p>
         </div>
-        <div className="flex flex-col justify-start items-cstart">
+        <div className="flex flex-col justify-start items-start">
           <Image src="/images/30.svg" width={156} height={136} alt="Three times faster icon" />
           <h3 className="text-2xl leading-6 text-gray-98 font-normal mt-6 mb-6">Day Setup</h3>
           <div className="w-full h-[1px] bg-white/30 mb-6" />

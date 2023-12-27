@@ -35,7 +35,7 @@
 
 @layer components {
   .container {
-    @apply mx-auto w-full max-w-[1920px] px-[100];
+    @apply mx-auto max-w-[1920px] px-24;
 
     @media (min-width: 1920px) {
       @apply px-[100px];
