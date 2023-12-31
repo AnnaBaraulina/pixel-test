@@ -7,7 +7,7 @@ import Button from '../button/button';
 const Header = () => (
   <header className="bg-black h-16 flex justify-center items-center relative">
     <nav className="">
-      <ul className="flex items-center">
+      <ul className="flex items-center md:hidden">
         <li className="mr-5">
           <Link
             className="text-gray-98 font-normal text-sm no-underline flex items-center"

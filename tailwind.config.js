@@ -36,8 +36,8 @@ export const theme = {
   // FIXME: Check if the breakpoints ("screens") are correct for the project
   screens: {
     xl: { max: '1439px' },
-    lg: { max: '1279px' },
-    md: { max: '1023px' },
+    lg: { max: '1350px' },
+    md: { max: '1157px' },
     sm: { max: '767px' },
     xs: { max: '639px' },
     '2xs': { max: '413px' },
