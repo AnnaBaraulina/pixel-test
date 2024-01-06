@@ -38,8 +38,8 @@ export const theme = {
     xl: { max: '1439px' },
     lg: { max: '1350px' },
     md: { max: '1157px' },
-    sm: { max: '767px' },
-    xs: { max: '639px' },
+    sm: { max: '810px' },
+    xs: { max: '600px' },
     '2xs': { max: '413px' },
   },
 };
